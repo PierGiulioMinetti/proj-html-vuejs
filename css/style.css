@@ -1,0 +1,133 @@
+/* GENERAL RESET */
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* UTILITY */
+
+.d-flex{
+    display: flex;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+/* EDITING TAG */
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* EDITING SECTION */
+
+
+/* HEADER */
+header{
+    height: 80px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(255, 166, 0, 0.335);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-header{
+    color: black;
+    font-weight: 500;
+}
+
+.link-header{
+    margin: 0 15px;
+    position: relative;
+    right: 50px;
+}
+
+.fa-chevron-down{
+    font-size: 10px;
+    position: relative;
+    left: 4px;
+}
+
+.logo-header{
+    position: relative;
+    right: 150px;
+}
+
+.logo-header>img{
+    max-width: 150px;
+}
+
+.searchbar-section-header::after{
+    content: 'O';
+    width: 11px;
+    height: 10px;
+    border-radius: 50%;
+    padding: 2px;
+    background-color: rgb(32, 173, 150);
+    color: white;
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    text-align: center;
+    line-height: 11px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.searchbar-section-header>input{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(245, 245, 245);
+    padding: 0 10px;
+}
+
+.fa-shopping-cart,
+.fa-user-circle{
+    margin-right: 10px;
+}
+
+.fa-shopping-cart{
+    font-size: 20px;
+}
+
+.fa-search{
+    color: rgb(32, 173, 150);
+    position: relative;
+    right: 34px;
+}
+
+/* SECTION ONE*/
+
+
+/* SECTION TWO*/
+
+
+/* SECTION THREE*/
+
+
+/* SECTION FOUR*/
+
+
+/* SECTION FIVE*/
+
+
+/* SECTION SIX*/
+
+
+/* SECTION SEVEN*/
+
+
+/* SECTION EIGHT*/
+
+
+/* FOOTER */
+
