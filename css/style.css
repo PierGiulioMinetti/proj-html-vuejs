@@ -306,7 +306,35 @@ header{
 }
 
 /* SECTION SEVEN*/
+.section-seven-container{
+    height: 60vh;
+    background-image: url("../img/home-testimonial-bg.jpg");
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.section-seven-text{
+    max-width: 700px;
+    margin: auto;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.section-seven-text>h3{
+    line-height: 2;
+    letter-spacing: 0.174em;
+    font-size: 26px;
+}
+
+.section-seven-text>p{
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
 /* SECTION EIGHT*/
 
