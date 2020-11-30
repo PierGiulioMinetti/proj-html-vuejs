@@ -267,7 +267,43 @@ header{
 
 
 /* SECTION SIX*/
+.section-six-container{
+    background-color: #25292b;
+    padding: 100px 0;
+}
 
+.section-six-top-part{
+    color: white;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    /* border: 1px solid white; */
+}
+
+.section-six-top-part>img{
+    margin-top: 35px;
+}
+
+.section-six-gallery{
+    width: 1000px;
+    /* border: 1px solid white; */
+    margin: auto;
+    /* justify-content: space-between; */
+    margin-top: 70px;
+}
+
+.section-six-gallery>img{
+    width: calc(100% / 3 - 25px);
+}
+
+.section-six-gallery>img:nth-child(2) {
+    margin-left: 40px;
+}
+
+.section-six-gallery>img:nth-child(3) {
+    margin-left: 40px;
+}
 
 /* SECTION SEVEN*/
 
