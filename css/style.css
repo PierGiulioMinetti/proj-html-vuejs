@@ -136,10 +136,33 @@ header{
 
 .section-three-form-container{
     color: white;
-    padding: 10px 20px;
+    padding: 0px 40px;
 }
 
+.section-three-signup-detail{
+    margin-top: 40px;
+}
 
+.section-three-signup-detail+input{
+    margin-top: 5px;
+    width: 400px;
+    height: 40px;
+    border-color: gray;
+    background-color: #1f2123;;
+    color: white;
+    padding: 0 10px;
+}
+
+.section-three-btn-red{
+    margin-top: 40px;
+    width: 400px;
+    background-color: tomato;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 2px;
+}
 /* SECTION FOUR*/
 
 
