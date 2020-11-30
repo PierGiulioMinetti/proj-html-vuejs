@@ -227,6 +227,43 @@ header{
 }
 
 /* SECTION FIVE*/
+.section-five-container{
+    background-color: #25292b;
+    padding: 100px 0;
+}
+
+.section-five-top-part{
+    color: white;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-five-top-part>img{
+    margin-top: 15px;
+}
+
+.section-five-bottom-part{
+    max-width: 1000px;
+    margin: 15px auto 15px;
+    justify-content: space-between;
+}
+
+.section-five-bottom-part-item{
+    width: calc(100% / 2 - 30px);
+    background-color: #1f2123;
+    padding: 20px;
+}
+
+.section-five-item-text{
+    padding-left: 30px;
+    color: #aaa9a9;
+}
+
+.section-five-item-text>h4{
+    margin-top: 5px;
+}
 
 
 /* SECTION SIX*/
