@@ -117,9 +117,8 @@ header{
     position: absolute;
     background-color: rgb(37, 41, 43);
     transform: rotate(45deg);
-    left: calc(50% - 50px);
+    left: calc(50% - 25px);
     bottom: -25px;
-    
 }
 
 
@@ -337,9 +336,118 @@ header{
 }
 
 /* SECTION EIGHT*/
+.section-eight-container{
+    background-color: #1f2123;
+    padding: 100px 0;
+}
 
+
+.section-eight-top-part{
+    color: white;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    /* border: 1px solid white; */
+}
+
+.section-eight-top-part>img{
+    margin-top: 35px;
+}
+
+.section-eight-trainer{
+    width: 1000px;
+    margin: auto;
+    /* height: 500px; */
+    justify-content: space-between;
+}
+
+.section-eight-single-trainer>img{
+    max-width:100%;
+}
+
+.section-eight-single-trainer>h3{
+    color: white;
+    padding: 0 50px;
+    margin-top: 30px;
+}
+
+.section-eight-single-trainer>p{
+    color: grey;
+    padding: 0 50px;
+    margin-top: 30px;
+    line-height: 2;
+}
+
+.section-eight-single-trainer{
+    width: calc(100% / 3 - 30px);
+    height: 100%;
+    background-color: #25292b;
+}
+
+.section-eight-social{
+    padding: 0 40px;
+    margin: 40px 0;
+}
+
+.section-eight-social>span{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    background-color: #1f2123;
+    display: block;
+    text-align: center;
+    margin: 5px 5px;
+    color: white;
+}
+
+.section-eight-social>span>a{
+    color: white;
+}
+
+.section-eight-btn-trainer{
+    width: 250px;
+    height: 50px;
+    line-height: 7px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+    color: white;
+    margin-top: 50px;
+}
+
+.section-eight-container::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #1f2123;
+    transform: rotate(45deg);
+    left: calc(50% - 25px);
+    bottom: -25px;
+}
 
 /* SECTION NINE*/
+.section-nine-container{
+    background-color: #25292b;
+    margin: auto;
+}
+
+.section-nine-top-part{
+    color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 150px 0;
+    text-align: center;
+    font-size: 25px;
+    /* border: 1px solid white; */
+}
+
+.section-nine-top-part>img{
+    margin-top: 35px;
+}
 
 
 /* SECTION TEN*/
