@@ -126,7 +126,7 @@ header{
 /* SECTION THREE*/
 .section-three-container{
     justify-content: center;
-    padding: 150px 20px;
+    padding: 100px 20px;
     background-color: #1f2123;
 }
 
@@ -163,8 +163,62 @@ header{
     text-align: center;
     border-radius: 2px;
 }
-/* SECTION FOUR*/
 
+.section-three-btn-red>a{
+    color: white;
+}
+
+/* SECTION FOUR*/
+.section-four-container{
+    height: 500px;
+    background-size: cover;
+    background-image: url("../img/gym_bkgd_bw-compressor.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    padding: 100px 0 ;
+}
+
+.section-four-container-data{
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 0 10px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.section-four-item{
+    padding: 50px 0;
+    width: calc(100% / 4 - 20px);
+    /* background-color: blue; */
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-section-four,
+.text-section-four{
+    margin: 5px 0;
+}
+
+.short-text-section-four{
+    margin-top: 40px;
+}
+
+.icon-section-four::after{
+    content: '';
+    position: absolute;
+    border: 3px solid red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 85px;
+    top: 38px;
+}
+
+.fa-dumbbell{
+    display: block;
+}
 
 /* SECTION FIVE*/
 
