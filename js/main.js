@@ -3,26 +3,27 @@ const app = new Vue({
     data: {
       linkHeader: [
           {
-              link: 'Home'
+              link: 'HOME'
           },
           {
-            link: 'Pages'
+            link: 'ABOUT US'
            },
            {
-            link: 'Courses'
+            link: 'FACILITIES'
            },
            {
-            link: 'Features'
+            link: 'MEMBERSHIP'
            },
            {
-            link: 'Blog'
+            link: 'TESTIMONIALS'
            },
            {
-            link: 'Shop'
+            link: 'BLOG'
            },
           
       ],
-    }
+    },
+    
 
 
   }) //--> end vueJS
