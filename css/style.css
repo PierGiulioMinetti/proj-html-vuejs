@@ -39,6 +39,7 @@ li{
 .section-one{
     height: 120vh;
     background-image: url("../img/home-banner.jpg");
+    background-size: cover;
 }
 
 header{
@@ -80,11 +81,52 @@ header{
     margin: auto;
     padding: 20px;
 }
+
+.join-header:hover{
+    color: #793735;
+    border-color: #793735;;
+    cursor: pointer;
+}
 /* SECTION TWO*/
+.section-two-container{
+    background-color: rgb(37, 41, 43);
+}
+
+.section-two-text{
+    width: 1700px;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.section-two-text>h1,
+.section-two-text>img,
+.section-two-text>p{
+    margin-top: 20px;
+}
+
+.section-two-text>p{
+    color: rgb(170, 169, 169);
+}
+
+.section-two-container::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(37, 41, 43);
+    transform: rotate(45deg);
+    left: calc(50% - 50px);
+    bottom: -25px;
+    
+}
 
 
 /* SECTION THREE*/
-
+.section-three-img-container>img{
+    max-width: 500px;
+}
 
 /* SECTION FOUR*/
 
