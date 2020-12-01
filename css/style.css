@@ -433,6 +433,7 @@ header{
 .section-nine-container{
     background-color: #25292b;
     margin: auto;
+    padding: 100px 0;
 }
 
 .section-nine-top-part{
@@ -445,10 +446,49 @@ header{
     /* border: 1px solid white; */
 }
 
-.section-nine-top-part>img{
-    margin-top: 35px;
+.section-nine-card-img>img{
+    max-width: 100%;
 }
 
+.section-nine-card-trainer{
+    max-width: 1000px;
+    /* border: 1px solid white; */
+    margin: auto;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+}
+
+.section-nine-card-item{
+    width: calc(100% / 3 - 30px);
+    align-self: flex-start;
+    background-color: #1f2123;
+    color: white;
+}
+
+.section-nine-card-text{
+    padding: 30px 20px;
+}
+
+.section-nine-card-text>p{
+    color: #aaa9a9;
+    margin-top: 10px;
+}
+
+.section-nine-card-item.four{
+    position: relative;
+    bottom: 100px;
+}
+
+.section-nine-card-item.five{
+    position: relative;
+    top: 45px;
+}
+
+.section-nine-card-item.six{
+    position: relative;
+    bottom: 33px;
+}
 
 /* SECTION TEN*/
 
