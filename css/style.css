@@ -446,6 +446,10 @@ header{
     /* border: 1px solid white; */
 }
 
+.section-nine-top-part>h2+img{
+    margin-top: 50px;
+}
+
 .section-nine-card-img>img{
     max-width: 100%;
 }
@@ -488,6 +492,17 @@ header{
 .section-nine-card-item.six{
     position: relative;
     bottom: 33px;
+}
+
+.section-nine-btn{
+    text-align: center;
+    color: white;
+    font-size:18px;
+    margin: 100px auto 100px;
+    border: 1px solid white;
+    width: 250px;
+    padding: 20px 0px;
+   
 }
 
 /* SECTION TEN*/
