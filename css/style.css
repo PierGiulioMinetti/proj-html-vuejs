@@ -601,4 +601,43 @@ header{
 }
 
 /* FOOTER */
+.footer-container{
+    background-color: #1a1c1e;
+    padding: 50px;
+    align-items: center;
+}
 
+.container-items-footer{
+    max-width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+
+.footer-list ul li a{
+    font-size: 14px;
+    color: white;
+}
+
+.bordo-footer{
+    margin-left: 20px;
+    color: white;
+}
+
+.footer-social{
+    /* border: 1px solid white; */
+    margin-left: 0px;
+    position: relative;
+    left: 50px;
+    bottom: 15px;
+}
+
+.footer-social>i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: #ee6059;
+}

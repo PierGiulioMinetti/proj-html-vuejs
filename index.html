@@ -112,7 +112,7 @@
                 </div>
                 <div class="section-four-item pos-rel">
                     <div class="icon-section-four">
-                        <i class="fas fa-dumbbell"></i>
+                        <i class="fas fa-unlink"></i>
                     </div>
                     <div class="short-text-section-four">
                         Strenght e Conditioning
@@ -496,8 +496,39 @@
                 </div>
             </div>
         </div>
-        <!-- FOOTER -->
 
+        <!-- FOOTER -->
+        <div class="footer-container d-flex">
+            <div class="container-items-footer d-flex">
+               <div class="footer-list d-flex">
+                    <ul 
+                        v-for="link in footer"
+                    >
+                        <li >
+                            <a href="#"
+                            class="d-flex"    
+                            >
+                                {{link.link}} 
+                                <span 
+                                    class="bordo-footer"
+                                    >
+                                    {{link.bordo}}
+                                </span>
+                            </a>
+                        </li>
+                        
+                    </ul>
+               </div>
+               <div 
+                    class="footer-social">
+                <i 
+                    v-for="nome in social"
+                    :class="nome.nome">
+
+                </i>
+               </div>
+            </div>
+        </div>
 
     </div>
     <!-- END GENERAL CONTAINER -->
