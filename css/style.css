@@ -498,15 +498,63 @@ header{
     text-align: center;
     color: white;
     font-size:18px;
-    margin: 100px auto 100px;
+    margin: 100px auto 20px;
     border: 1px solid white;
     width: 250px;
     padding: 20px 0px;
-   
+}
+
+.section-nine-btn:hover{
+    color: orange;
+    border-color: orange;
+    cursor: pointer;
 }
 
 /* SECTION TEN*/
+.section-ten-container{
+    height: 30vh;
+    background-image: url("../img/home-parallax.jpg");
+    background-size: cover;
+    background-position: 30% 20%;
+    background-repeat: no-repeat;
+}
 
+.section-ten-text{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+    align-items: center;
+   
+}
+
+.section-ten-text>h3{
+    max-width: 60%;
+    color: white;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.section-ten-text>h3>p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.section-ten-btn{
+     border: 1px solid white;
+     width: 150px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     margin-left: 150px;
+     margin-top: 35px;
+     color: white;
+}
+
+.section-ten-btn:hover{
+    cursor: pointer;
+    color: orange;
+    border-color: orange;
+}
 
 /* SECTION ELEVEN*/
 
