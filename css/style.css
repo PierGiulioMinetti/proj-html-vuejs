@@ -545,7 +545,7 @@ header{
      height: 50px;
      line-height: 50px;
      text-align: center;
-     margin-left: 150px;
+     margin-left: 210px;
      margin-top: 35px;
      color: white;
 }
@@ -557,7 +557,41 @@ header{
 }
 
 /* SECTION ELEVEN*/
+.section-eleven-container{
+    background-color: #1f2123;
+    padding: 100px 0;
+}
 
+.section-eleven-items-container{
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.section-eleven-item{
+    width: calc(100% / 4 - 25px);
+    /* border: 1px solid white; */
+    color: white;
+    padding: 5px;
+}
+
+.section-eleven-item>h4{
+    margin-bottom: 20px;
+    color:#6c777b;
+    font-weight: 400;
+}
+
+.border-both{
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.section-eleven-item>.img-section-eleven{
+    padding: 0;
+    max-width: 110%;
+}
 
 /* FOOTER */
 
