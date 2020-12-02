@@ -444,7 +444,7 @@
         </div>
         <!-- SECTION ELEVEN (come find us) -->
         <div class="section-eleven-container">
-            <div class="section-eleven-items-container d-flex">
+            <div class="section-eleven-items-container d-flex pos-rel">
                 <div 
                     v-for="element in sectionEleven"
                     class="section-eleven-item pos-rel">
@@ -470,9 +470,11 @@
                     >
                      <i :class="element.icon"
                         class="arrow-second">
-
                      </i>
                         {{element.secondP}}
+                    </p>
+                    <p class="nutrition pos-abs">
+                        {{element.nutrition}}
                     </p>
                     <p 
                         class="working-hours"

@@ -31,7 +31,7 @@ const app = new Vue({
           title: 'RECENT POSTS',
           icon:   'fas fa-chevron-right',   
           firstP: 'Train with free weiughts or your body weight?',       
-          secondP: 'Nutritional advice that will keep your traininig'
+          nutrition: 'Nutritional advice that will keep your traininig'
         },
         {
           title: 'OPENING TIMES',
@@ -44,7 +44,7 @@ const app = new Vue({
       imgDiscount: './img/gym_ad-compressor.jpg',
         footer: [
             {
-              link: 'Copyright 2012 - 2020',
+              link: ' © Copyright 2012 - 2020',
             },
             {
               link: 'Avada Theme by Theme Fusion',
