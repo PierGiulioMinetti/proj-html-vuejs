@@ -576,6 +576,19 @@ header{
     justify-content: space-between;
 }
 
+.firstP,
+.secondP{
+    color:white;
+}
+
+.firstP:nth-child(2){
+    /* font-size: 10px; */
+}
+
+.working-hours{
+    color: rgb(74, 80, 83);
+}
+
 .section-eleven-item{
     width: calc(100% / 4 - 25px);
     /* border: 1px solid white; */
@@ -593,7 +606,6 @@ header{
     line-height: 2;
     letter-spacing: 0.13em;
     font-size: 13px;
-    color:#999;
 }
 
 .border-both{
