@@ -100,10 +100,12 @@ header{
     color: white;
 }
 
-.section-two-text>h1,
-.section-two-text>img,
-.section-two-text>p{
+.section-two-text>h1{
     margin-top: 20px;
+}
+
+.section-two-text>img{
+    margin: 40px;
 }
 
 .section-two-text>p{
@@ -146,7 +148,7 @@ header{
     margin-top: 5px;
     width: 400px;
     height: 40px;
-    border-color: gray;
+    border-color: hsl(202.5, 6.1%, 25.9%);
     background-color: #1f2123;;
     color: white;
     padding: 0 10px;
@@ -195,8 +197,11 @@ header{
     flex-direction: column;
 }
 
-.icon-section-four,
-.text-section-four{
+.section-four-item>img{
+    margin: 15px 0;
+}
+
+.icon-section-four{
     margin: 5px 0;
 }
 
@@ -220,7 +225,10 @@ header{
     color: gray;
 }
 
-.fa-dumbbell{
+.fa-bed,
+.fa-unlink,
+.fa-bicycle,
+.fa-heartbeat{
     display: block;
     color: tomato;
 }
@@ -240,7 +248,7 @@ header{
 }
 
 .section-five-top-part>img{
-    margin-top: 15px;
+    margin: 30px;
 }
 
 .section-five-bottom-part{
@@ -281,7 +289,7 @@ header{
 }
 
 .section-six-top-part>img{
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .section-six-gallery{
@@ -352,7 +360,7 @@ header{
 }
 
 .section-eight-top-part>img{
-    margin-top: 35px;
+    margin: 35px;
 }
 
 .section-eight-trainer{
@@ -440,14 +448,14 @@ header{
     color: white;
     width: 1000px;
     margin: auto;
-    padding: 150px 0;
+    padding: 30px 0;
     text-align: center;
     font-size: 25px;
     /* border: 1px solid white; */
 }
 
 .section-nine-top-part>h2+img{
-    margin-top: 50px;
+    margin: 50px;
 }
 
 .section-nine-card-img>img{
@@ -617,7 +625,15 @@ header{
 .footer-list ul li a{
     font-size: 14px;
     color: white;
+    border-right: 1px solid white;
 }
+
+/* DEBUG HEREEEEEEEEEEEEEEEE */
+
+.footer-list ul li:last-child a{
+    border-right: none;
+}
+
 
 .bordo-footer{
     margin-left: 20px;
@@ -656,6 +672,6 @@ header{
 }
 
 .box-fixed>a{
-    color: white;+
+    color: white;
     font-size: 20px;;
 }
