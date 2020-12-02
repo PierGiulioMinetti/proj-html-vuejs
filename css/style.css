@@ -625,10 +625,9 @@ header{
 .footer-list ul li a{
     font-size: 14px;
     color: white;
-    border-right: 1px solid white;
+    border-right: 2px solid white;
+    padding: 0 8px;
 }
-
-/* DEBUG HEREEEEEEEEEEEEEEEE */
 
 .footer-list ul li:last-child a{
     border-right: none;
