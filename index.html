@@ -447,17 +447,18 @@
             <div class="section-eleven-items-container d-flex">
                 <div 
                     v-for="element in sectionEleven"
-                    class="section-eleven-item">
+                    class="section-eleven-item pos-rel">
                     <h4>
                        {{element.title}}
                     </h4>
                     <p 
                         class="firstP"    
                     >
-                         <i :class="element.icon">
+                    <i :class="element.icon"
+                        class="arrow-first">
 
-                         </i>
-                        {{element.firstP}}
+                    </i>
+                   {{element.firstP}}
                     </p>
                     <p 
                         class="working-hours"
@@ -467,7 +468,8 @@
                     <p
                     class="secondP"
                     >
-                     <i :class="element.icon">
+                     <i :class="element.icon"
+                        class="arrow-second">
 
                      </i>
                         {{element.secondP}}

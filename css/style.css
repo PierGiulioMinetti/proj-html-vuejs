@@ -585,6 +585,17 @@ header{
     /* font-size: 10px; */
 }
 
+.arrow-first{
+    position: absolute;
+    left: -6px;
+    top: 52px;
+    font-size: smaller;
+}
+
+.arrow-second{
+    position: absolute;
+}
+
 .working-hours{
     color: rgb(74, 80, 83);
 }
@@ -667,6 +678,10 @@ header{
     border-radius: 5px;
     margin: 0 5px;
     background-color: #ee6059;
+}
+
+.footer-social:hover{
+    cursor: pointer;
 }
 
 .box-fixed{
