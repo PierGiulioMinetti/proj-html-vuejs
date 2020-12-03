@@ -41,7 +41,9 @@ const app = new Vue({
           weekEndHours : ' 09:00 - 21:00'
         }
       ],
+
       imgDiscount: './img/gym_ad-compressor.jpg',
+      
         footer: [
             {
               link: ' © Copyright 2012 - 2020',
