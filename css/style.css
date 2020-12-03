@@ -277,8 +277,14 @@ header{
 
 .section-five-item-text>h4{
     margin-top: 5px;
+    color: white;
 }
 
+.section-five-item-text>p{
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* SECTION SIX*/
 .section-six-container{
