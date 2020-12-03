@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* UTILITY */
@@ -503,6 +504,10 @@ header{
     padding: 30px 20px;
 }
 
+.section-nine-card-text>h1{
+    font-size: 20px;
+}
+
 .section-nine-card-text>p{
     color: #aaa9a9;
     margin-top: 10px;
@@ -594,16 +599,17 @@ header{
 .section-eleven-items-container::after{
     position: absolute;
     content: ' ';
-    height: 70px;
-    width: 230px;
+    height: 79px;
+    width: 263px;
     border-bottom: 1px solid gray;
     border-top: 1px solid gray;
-    left: 240px;
-    top: 128px;
+    left: 264px;
+    top: 126px;
+
 }
 
 .section-eleven-items-container{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     justify-content: space-between;
 }
@@ -616,7 +622,6 @@ header{
     line-height: 13;
     font-weight: 300;
     font-style: normal;
-    /* margin-bottom: 5px; */
 }
 
 .nutrition{
@@ -660,7 +665,7 @@ header{
 .section-eleven-item>p{
     line-height: 2;
     letter-spacing: 0.13em;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .border-both{
@@ -683,11 +688,15 @@ header{
 }
 
 .container-items-footer{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     color: white;
+    position: relative;
 }
 
+.footer-list{
+    padding-right: 180px;
+}
 
 .footer-list ul li a{
     font-size: 13px;
@@ -696,7 +705,6 @@ header{
     padding: 0 8px;
 }
 
-/* code hereeeeeeeeeeeeeeeeeeeeeeeeeeee */
 .footer-list ul li a:hover{
     color: #793735;
 }
@@ -711,10 +719,9 @@ header{
 }
 
 .footer-social{
-    /* border: 1px solid white; */
     margin-left: 0px;
     position: relative;
-    left: 50px;
+    left: 22px;
     bottom: 15px;
 }
 
@@ -754,4 +761,12 @@ header{
 .box-fixed>a{
     color: white;
     font-size: 20px;;
+}
+
+.box-fixed:hover{
+    cursor: pointer;
+}
+
+.box-fixed:hover a{
+    color: #793735;
 }
