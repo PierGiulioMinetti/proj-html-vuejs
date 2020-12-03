@@ -157,12 +157,18 @@ header{
 .section-three-btn-red{
     margin-top: 40px;
     width: 400px;
-    background-color: tomato;
+    background-color: #ee6059;
     color: white;
     height: 50px;
     line-height: 50px;
     text-align: center;
     border-radius: 2px;
+    transition: transform 0.4s;
+}
+
+.section-three-btn-red:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .section-three-btn-red>a{
@@ -316,7 +322,7 @@ header{
 .section-seven-container{
     height: 60vh;
     background-image: url("../img/home-testimonial-bg.jpg");
-    background-position: center center ;
+    background-position: 50% 45% ;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -410,6 +416,15 @@ header{
     color: white;
 }
 
+.section-eight-social>span:hover{
+    cursor: pointer;
+}
+
+.section-eight-social>span:hover a{
+    color: #793735;
+
+}
+
 .section-eight-social>span>a{
     color: white;
 }
@@ -424,6 +439,12 @@ header{
     border: 1px solid white;
     color: white;
     margin-top: 50px;
+}
+
+.section-eight-btn-trainer:hover{
+    cursor: pointer;
+    border-color: #793735;
+    color: #793735;
 }
 
 .section-eight-container::after{
@@ -513,8 +534,8 @@ header{
 }
 
 .section-nine-btn:hover{
-    color: orange;
-    border-color: orange;
+    color: #793735;
+    border-color: #793735;
     cursor: pointer;
 }
 
@@ -543,7 +564,7 @@ header{
 }
 
 .section-ten-text>h3>p{
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 10px;
 }
 
@@ -572,13 +593,13 @@ header{
 
 .section-eleven-items-container::after{
     position: absolute;
-content: ' ';
-height: 70px;
-width: 230px;
-border-bottom: 1px solid gray;
-border-top: 1px solid gray;
-left: 240px;
-top: 128px;
+    content: ' ';
+    height: 70px;
+    width: 230px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    left: 240px;
+    top: 128px;
 }
 
 .section-eleven-items-container{
@@ -669,16 +690,20 @@ top: 128px;
 
 
 .footer-list ul li a{
-    font-size: 14px;
+    font-size: 13px;
     color: white;
     border-right: 2px solid white;
     padding: 0 8px;
 }
 
+/* code hereeeeeeeeeeeeeeeeeeeeeeeeeeee */
+.footer-list ul li a:hover{
+    color: #793735;
+}
+
 .footer-list ul li:last-child a{
     border-right: none;
 }
-
 
 .bordo-footer{
     margin-left: 20px;
@@ -703,9 +728,15 @@ top: 128px;
     background-color: #ee6059;
 }
 
+.footer-social>i:hover{
+    color: #793735;
+}
+
 .footer-social:hover{
     cursor: pointer;
 }
+
+/* BOX POSITION FIXED */
 
 .box-fixed{
     width: 70px;
