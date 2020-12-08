@@ -9,6 +9,12 @@
 
 /* UTILITY */
 
+.active{
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .d-flex{
     display: flex;
 }
@@ -67,8 +73,32 @@ header{
 }
 
 .text-header>h1{
-    font-size: 90px
+    font-size: 90px;
+    animation-name: noPain;
+    animation-duration: 3s;
+    animation-timing-function: linear;
 }
+
+@keyframes noPain {
+    0%   {color: transparent;}
+    25%  {color: transparent;}
+    50%  {color: transparent;}
+    100% {color: white;}
+  }
+
+.text-header>p{
+    animation-name: noPainp;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+}
+
+@keyframes noPainp {
+    0%   {color: transparent;}
+    25%  {color: transparent;}
+    50%  {color: transparent;}
+    100% {color: white;}
+  }
+
 
 .text-header>h1,
 .text-header>p,
@@ -81,11 +111,32 @@ header{
     width: 200px;
     margin: auto;
     padding: 20px;
+    position: relative;
 }
+
+.join-header::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(251, 250, 250);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform-origin: right top;
+    transform: scale(0);
+    transition: transform 0.2s linear;
+}
+
+.join-header:hover::after{
+    transform: scale(1);
+    transform-origin: left bottom ;
+}
+
 
 .join-header:hover{
     color: #793735;
-    border-color: #793735;;
+    border-color: transparent;
     cursor: pointer;
 }
 /* SECTION TWO*/
@@ -439,12 +490,32 @@ header{
     border: 1px solid white;
     color: white;
     margin-top: 50px;
+    position: relative;
+}
+
+.section-eight-btn-trainer::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(207, 67, 67, 0.2);
+    left: 0;
+    top: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 1s linear;
+}
+
+.section-eight-btn-trainer:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+    background-color: rgba(240, 124, 124, 0.2);
 }
 
 .section-eight-btn-trainer:hover{
     cursor: pointer;
     border-color: #793735;
-    color: #793735;
+    color: white;
 }
 
 .section-eight-container::after{
@@ -533,6 +604,26 @@ header{
     border: 1px solid white;
     width: 250px;
     padding: 20px 0px;
+    position: relative;
+}
+
+.section-nine-btn::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(207, 67, 67, 0.2);
+    left: 0;
+    top: 0;
+    transform-origin: bottom;
+    transform: scaleY(0);
+    transition: transform 1s linear;
+}
+
+.section-nine-btn:hover::after{
+    transform: scaleY(1);
+    transform-origin: top ;
+    background-color: rgba(240, 124, 124, 0.2);
 }
 
 .section-nine-btn:hover{
@@ -579,12 +670,40 @@ header{
      margin-left: 210px;
      margin-top: 35px;
      color: white;
+     position: relative;
 }
+
+/* ***************************** */
+
+
+.section-ten-btn::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(251, 250, 250, 0.2);
+    left: 0;
+    top: 0;
+    z-index: 0;
+    transform-origin:  left bottom;
+    transform: scale(0);
+    transition: transform 0.2s linear;
+}
+
+.section-ten-btn:hover::after{
+    transform: scale(1);
+    transform-origin:  right top;
+}
+
+
+/* 
+****************************** */
+
 
 .section-ten-btn:hover{
     cursor: pointer;
-    color: orange;
-    border-color: orange;
+    color:red;
+    border-color:white;
 }
 
 /* SECTION ELEVEN*/

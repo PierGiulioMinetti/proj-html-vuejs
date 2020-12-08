@@ -1,9 +1,12 @@
 const app = new Vue({
     el: '#app',
     data: {
+      activeIndex: 0,
+
       linkHeader: [
           {
-              link: 'HOME'
+              link: 'HOME',
+              
           },
           {
             link: 'ABOUT US'
@@ -71,9 +74,13 @@ const app = new Vue({
             }
 
         ]
-
-
     }, //-->end data
+
+    methods: {
+      toggleActive(index){
+        this.activeIndex = index;
+      }
+    }
     
 
 

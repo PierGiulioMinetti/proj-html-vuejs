@@ -28,9 +28,12 @@
                 <div class="navbar-header">
                     <ul class="d-flex">
                         <li 
-                            v-for="link in linkHeader">
+                            v-for="(link, index) in linkHeader">
                             <a 
-                                href="#">
+                                href="#"
+                                v-on:click="toggleActive(index)"
+                                v-bind:class="activeIndex == index ? 'active' : ' '"
+                                >
                                 {{link.link}}
                             </a>
                         </li>
